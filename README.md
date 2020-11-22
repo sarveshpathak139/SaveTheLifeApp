@@ -1,0 +1,2 @@
+# SaveTheLifeApp
+We got the inspiration to build this project as we saw a real accident which happened infront of our college campus road. There was huge public around the casualty and some of them called the emergency number that is 108 but it took a lot of time for the ambulance to reach the accident location as the call first routes to a call center which asks for all the details of the site and then checks for the availability of ambulance in nearby accident location and then sends it to the accident location.
