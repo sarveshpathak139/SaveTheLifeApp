@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverLoginActivity"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:paddingTop="56dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+
+    >
+    <ImageView android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_username"
+        android:textSize="20sp"
+        android:hint=" Email "
+        android:textColorHint="#121"
+        android:id="@+id/Email"/>
+    <EditText
+        android:layout_marginTop="270dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="15dp"
+        android:drawableStart="@drawable/ic_key"
+        android:hint="Password"
+        android:textColorHint="#123"
+        android:inputType="textPassword"
+        android:id="@+id/Password"/>
+
+    <CheckBox
+        android:layout_marginTop="340dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Showpassword"
+        android:id="@+id/show">
+    </CheckBox>
+    <Button
+        android:layout_marginTop="400dp"
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/loginbutton"
+        android:padding="11dp"
+
+
+        android:text="Login"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <Button
+        android:layout_marginTop="470dp"
+        android:id="@+id/Register"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/registerbutton"
+        android:padding="11dp"
+        android:text="Register" />
+
+</RelativeLayout>

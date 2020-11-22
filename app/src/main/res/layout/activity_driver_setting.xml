@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".CustomerSettingActivity">
+
+    <ImageView
+        android:id="@+id/profileimage"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginBottom="20sp"
+        android:baselineAligned="false"
+        android:src="@drawable/default_user_round" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:background="@null"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColorHint="#FFF" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:background="@null"
+        android:hint="Contact"
+        android:inputType="number"
+        android:textColorHint="#FFF" />
+
+    <EditText
+        android:id="@+id/typeofambulance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:background="@null"
+        android:hint="Select Ambulance Type"
+        android:textColorHint="#FFF" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/simple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simple" />
+
+        <RadioButton
+            android:id="@+id/cardiac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cardiac" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="CONFIRM"
+        android:textColor="#D32F2F" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="BACK"
+        android:textColor="#D32F2F" />
+</LinearLayout>
